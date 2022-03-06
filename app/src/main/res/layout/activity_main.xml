@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/nameid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:background="#696969"
+      />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/ageid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:background="#696969"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:text="save"
+
+        android:textSize="30dp"
+        android:background="@color/white"
+        android:id="@+id/saveid"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+       />
+    <Button
+        android:layout_marginTop="20dp"
+        android:text="show"
+        android:textSize="30dp"
+        android:background="@color/white"
+        android:id="@+id/showid"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:id="@+id/daaat"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        />
+</LinearLayout>
